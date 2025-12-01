@@ -1,0 +1,117 @@
+/* ----------- GLOBAL STYLE ----------- */
+body {
+    margin: 0;
+    font-family: "Inter", "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(to bottom right, #eef4f7, #dce4eb);
+    color: #222;
+    line-height: 1.6;
+}
+
+/* ----------- HEADER ----------- */
+header {
+    background: #1b2b3a;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.25);
+}
+
+header h1 {
+    font-size: 2.8rem;
+    margin: 0;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
+.authors {
+    margin-top: 12px;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+/* ----------- SECTION HEADINGS ----------- */
+.section-heading {
+    font-size: 1.9rem;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #1b2b3a;
+    border-left: 6px solid #4a90e2;
+    padding-left: 12px;
+}
+
+/* ----------- INTRO SECTION ----------- */
+.intro-section {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto 60px auto;
+    background: white;
+    padding: 30px 40px;
+    border-radius: 14px;
+    border-left: 6px solid #4a90e2;
+    border-right: 6px solid #4a90e2;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+
+/* ----------- MAIN CARD CONTAINER ----------- */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding-bottom: 60px;
+}
+
+/* ----------- VISUALIZATION CARDS ----------- */
+.viz-card {
+    background: white;
+    padding: 28px 35px;
+    margin-bottom: 45px;
+    border-radius: 14px;
+    border-left: 6px solid #5db4ea;
+    border-right: 6px solid #5db4ea;
+    box-shadow: 0px 4px 18px rgba(0,0,0,0.14);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.viz-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0px 8px 30px rgba(0,0,0,0.2);
+}
+
+.viz-title {
+    font-size: 1.6rem;
+    margin-top: 0;
+    color: #163b5d;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* ----------- IMAGES & IFRAMES ----------- */
+img, iframe {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 12px;
+    border: 2px solid #cfd8e1;
+}
+
+/* ----------- FOOTER ----------- */
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    background: #1b2b3a;
+    color: white;
+    margin-top: 60px;
+}
+
+footer a {
+    color: #7dc8ff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
