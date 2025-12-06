@@ -8,5 +8,14 @@ over the past century, highlighting long-term warming trends.
 - Meyhr Kaur
 - Brandon Diaz
 
+## Technologies Used
+- HTML, CSS, JavaScript
+- Python (Pandas, NumPy, Plotly)
+- GitHub Pages
+
+## Data Used
+- NASA GISTEMP v4 (global surface temperature anomalies)
+- NOAA GlobalTemp (validation and comparison)
+
 ## Live Website
 https://dbhagria-2004.github.io/CS4200Project_Temperature_Change/
