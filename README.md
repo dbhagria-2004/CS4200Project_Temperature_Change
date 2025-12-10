@@ -18,4 +18,4 @@ over the past century, highlighting long-term warming trends.
 - NOAA GlobalTemp (validation and comparison)
 
 ## Live Website
-https://dbhagria-2004.github.io/CS4200Project_Temperature_Change/
+https://dbhagria-2004.github.io/Project_Temperature_Change/
